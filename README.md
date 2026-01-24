@@ -230,3 +230,7 @@ Evib_ad, wfc_ad = system.get_ground_adiabatic_proton_states()
 
 ### IV. Some Useful Scripts
 In the directory `scripts/` we provide several useful scripts that can help generate the input quantities for PCET rate constant calculation or nonadiabaticity analysis. Please refer to the README file in that directory for detailed documentation. 
+
+## Citation
+If you used this code for your research, please cite the following paper: 
+1. Hutchinson, P.; Cui, K.; Zhong, J.; Hammes-Schiffer, S.; Tutorial on Computing Nonadiabatic Proton-Coupled Electron Transfer Rate Constants, *J. Chem. Phys.* **2025**, *163*, 091501. [DOI:10.1063/5.0284337](https://doi.org/10.1063/5.0284337)
