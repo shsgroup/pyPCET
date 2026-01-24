@@ -114,7 +114,7 @@ def fit_poly8(xdata, ydata):
         return aa*x**8+bb*x**7+cc*x**6+dd*x**5+ee*x**4+ff*x**3+gg*x**2+hh*x+ii
     return func
 
-def bspline(xdata, ydata, s=0.0):
+def bspline(xdata, ydata, s=5e-3):
     """
     This function spline the given data using BSpline
     """
