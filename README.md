@@ -73,7 +73,7 @@ Other parameters that can be set during initialization are
 8. `Smooth` (string): method to smooth the proton potential if given as 2D array, possible choices are 'fit_poly6', 'fit_poly8', 'bspline', default = 'bspline' 
 
 > [!NOTE]
-> When initializing, The program will automatically determine the range of the proton coordinate to perform subsequent calculations. If the input proton potentials are 2D arrays, the range will be the same as the input data. If the input proton potentials are callable functions, a range from -0.8 A to 0.8 A will be used. This default range may not work when the proton donor-acceptor distance is too large.
+> When initializing, the program will automatically determine the range of the proton coordinate to perform subsequent calculations. If the input proton potentials are 2D arrays, the range will be the same as the input data. If the input proton potentials are callable functions, a range from -0.8 A to 0.8 A will be used. This default range may not work when the proton donor-acceptor distance is too large.
 
 > [!TIP]
 >  Users could fine tune the range of the proton coordinate by providing additional input parameters `rmin`, `rmax` during initialization.
