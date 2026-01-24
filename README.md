@@ -233,4 +233,4 @@ In the directory `scripts/` we provide several useful scripts that can help gene
 
 ## Citation
 If you used this code for your research, please cite the following paper: 
-1. Hutchinson, P.; Cui, K.; Zhong, J.; Hammes-Schiffer, S.; Tutorial on Computing Nonadiabatic Proton-Coupled Electron Transfer Rate Constants, *J. Chem. Phys.* **2025**, *163*, 091501. [DOI:10.1063/5.0284337](https://doi.org/10.1063/5.0284337)
+1. Hutchison, P.; Cui, K.; Zhong, J.; Hammes-Schiffer, S.; Tutorial on Computing Nonadiabatic Proton-Coupled Electron Transfer Rate Constants, *J. Chem. Phys.* **2025**, *163*, 091501. [DOI:10.1063/5.0284337](https://doi.org/10.1063/5.0284337)
