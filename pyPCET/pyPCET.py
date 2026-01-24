@@ -22,12 +22,12 @@ class pyPCET(object):
         Vel (float): electronic coupling between reactant and product states in eV, default = 0.0434 eV = 1 kcal/mol
         NStates (int): number of proton vibrational states to be calculated, default = 10
         NGridPot (int): number of grid points used for FGH calculation, default = 256
-        Smooth (string): method to smooth the proton potential if given as 2Darray, possible choices are 'fit_poly6', 'fit_poly8', 'bspline', default = 'fit_poly6' 
+        Smooth (string): method to smooth the proton potential if given as 2Darray, possible choices are 'fit_poly6', 'fit_poly8', 'bspline', default = 'bspline' 
 
     The program will automatically determine the ranges of proton position to perform subsequent calculations. 
     Users could fine tune these ranges by parseing additional inputs 'rmin', 'rmax'. 
     """
-    def __init__(self, ReacProtonPot, ProdProtonPot, DeltaG, Lambda, Vel=0.0434, NStates=10, NGridPot=256, Smooth='fit_poly6', **kwargs):
+    def __init__(self, ReacProtonPot, ProdProtonPot, DeltaG, Lambda, Vel=0.0434, NStates=10, NGridPot=256, Smooth='bspline', **kwargs):
         """
         *** Initialization ***
         The input of the proton potential can be either a 2D array or a callable function. 
